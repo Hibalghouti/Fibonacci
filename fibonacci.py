@@ -1,12 +1,11 @@
-# number of Fibonacci numbers to generate
-n = int(input("Enter the number: "))
-
-# Initialization
-a, b = 0, 1
-
-for i in range(n):
+n=int(input("Enter a Number:"))
+#Initialization
+a=0
+b=1
+for i in range(0,n+1,1):
     print(a, " ")
-    a, b = b, a + b  # Update to the next Fibonacci numbers
+    a,b=b,a+b
+
 
 
 #f(0)=0   a
